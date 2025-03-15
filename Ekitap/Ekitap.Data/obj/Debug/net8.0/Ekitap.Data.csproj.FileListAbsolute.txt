@@ -1,0 +1,17 @@
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.Data.csproj.AssemblyReference.cache
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.Data.AssemblyInfoInputs.cache
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.Data.AssemblyInfo.cs
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.Data.csproj.CoreCompileInputs.cache
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\bin\Debug\net8.0\Ekitap.Data.deps.json
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\bin\Debug\net8.0\Ekitap.Data.runtimeconfig.json
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\bin\Debug\net8.0\Ekitap.Data.dll
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\bin\Debug\net8.0\Ekitap.Data.pdb
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\bin\Debug\net8.0\Ekitap.Core.dll
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\bin\Debug\net8.0\Ekitap.Core.pdb
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.D.A79A6D9E.Up2Date
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.Data.dll
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\refint\Ekitap.Data.dll
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.Data.pdb
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\Ekitap.Data.genruntimeconfig.cache
+C:\Users\samet\source\repos\Ekitap\Ekitap.Data\obj\Debug\net8.0\ref\Ekitap.Data.dll

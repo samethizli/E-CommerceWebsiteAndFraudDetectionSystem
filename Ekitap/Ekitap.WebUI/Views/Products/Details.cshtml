@@ -1,0 +1,188 @@
+﻿@model ProductDetailViewModel
+
+<style>
+    .product-wrapper {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px; 
+        background: #eee;
+        border: none;
+    }
+
+    .product-info {
+        background: #eee;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .product-image-container {
+        flex: 1;
+        max-width: 40%;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+
+    .product-image {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-details {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: none;
+        border: none;
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 26px;
+        color: #d9534f;
+        font-weight: bold;
+    }
+
+    .btn-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .btnHemenAl {
+        background-color: #fe1a00;
+        color: white;
+    }
+
+    .btnSepetEkle {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .btnHemenAl:hover, .btnSepetEkle:hover {
+        filter: brightness(1.2);
+    }
+
+    .btnArttir, .btnAzalt {
+        background-color: gray;
+        color: white;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    #urunMiktar {
+        width: 45px;
+        height: 35px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .red-text {
+        color: red !important;
+        text-decoration: none;
+    }
+
+    .no-hover {
+        color: red;
+        text-decoration: none;
+        pointer-events: none;
+    }
+</style>
+
+<section class="container px-4 px-lg-5 my-5">
+    
+    <div class="product-wrapper">
+        <div class="product-image-container">
+            <img class="product-image" src="~/Img/Products/@Model.Product.Image" alt="@Model.Product.Name">
+        </div>
+
+        <div class="product-info">
+            <div class="small mb-1">SKU: @Model.Product.ProductCode</div>
+            <h2>@Model.Product.Name</h2>
+
+            <div class="fs-5 mb-4">
+                <span class="price">@Model.Product.Price.ToString("c")</span>
+            </div>
+
+            <p class="lead">@Model.Product.Description</p>
+
+            <div class="product-details mt-4">
+                <table class="table">
+                    <tbody>
+                        <tr><td class="label">ISBN / BARKOD</td><td class="value"> : @Model.Product.ISBN</td></tr>
+                        <tr><td class="label">Yayınevi / Marka</td><td class="value"> : <a href="#" class="red-text">@Model.Product.YayinEvi.Name</a></td></tr>
+                        <tr><td class="label">Yazar</td><td class="value"> : <a href="#" class="red-text">@Model.Product.Yazar.Name</a></td></tr>
+                        <tr><td class="label">Stok</td><td class="value"> : @Model.Product.Stock adet var</td></tr>
+                        <tr><td class="label">Kargo İndirimi</td><td class="value"> : 690 TL üzeri Kargo <strong>BEDAVA</strong></td></tr>
+                        <tr><td class="label">Tedarik Süresi</td><td class="value"> : <span class="no-hover red-text">24 Saatte Kargoda 🚚</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="btn-container">
+                <button class="btn btnHemenAl" onclick="HemenAlButon1(@Model.Product.Id);">Hemen Al</button>
+
+                <button class="btn btnAzalt" onclick="azaltMiktar()">-</button>
+                <input type="text" id="urunMiktar" value="1" readonly>
+                <button class="btn btnArttir" onclick="arttirMiktar()">+</button>
+
+                <button class="btn btnSepetEkle" onclick="btnSepeteEkle(@Model.Product.Id, 0);">Sepete Ekle</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function arttirMiktar() {
+        let miktarInput = document.getElementById("urunMiktar");
+        let miktar = parseInt(miktarInput.value);
+        miktarInput.value = miktar + 1;
+    }
+
+    function azaltMiktar() {
+        let miktarInput = document.getElementById("urunMiktar");
+        let miktar = parseInt(miktarInput.value);
+        if (miktar > 1) {
+            miktarInput.value = miktar - 1;
+        }
+    }
+</script>
+<!-- Alakalı Ürünler -->
+<section class="py-5 bg-light">
+    <div class="container px-4 px-lg-5 mt-5">
+        <h2 class="fw-bolder mb-4">Alakalı Ürünler</h2>
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            @foreach (var item in Model.RelatedProducts)
+            {
+                <partial name="_ProductView" model="item" />
+            }
+        </div>
+    </div>
+</section>
