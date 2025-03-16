@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 **Project Name:** AI-Powered E-Commerce with Fraud Detection  
-**Project Description:** A modern e-commerce platform developed using **ASP.NET MVC**, integrating **AI-powered credit card fraud detection** to enhance transaction security and prevent fraudulent activities.
+**Project Description:** A modern e-commerce platform developed using **ASP.NET Core MVC**, integrating **AI-powered credit card fraud detection** to enhance transaction security and prevent fraudulent activities.
 
 ## 🚀 Features
 - 🛒 **Modern E-Commerce Platform**: User-friendly shopping experience with secure payment integration.
@@ -11,7 +11,7 @@
 - 🏦 **Secure Payment Processing**: Integrated with fraud detection to prevent unauthorized transactions.
 
 ## 🏗️ Technologies Used
-- **Backend**: ASP.NET MVC, C#, Entity Framework
+- **Backend**: ASP.NET Core MVC, C#, Entity Framework
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
 - **Database**: SQL Server
 - **AI & Fraud Detection**: Python (Pandas, Scikit-Learn), Machine Learning Models
@@ -27,7 +27,7 @@
    - Configure **SQL Server** connection.
    - Run the migrations to set up the database.
 3. **Run the application:**
-   - Start the **ASP.NET MVC** project.
+   - Start the **ASP.NET Core MVC** project.
    - Ensure the **fraud detection model API** is running.
 
 ## 📊 Fraud Detection Model
