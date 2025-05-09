@@ -79,27 +79,27 @@ namespace Ekitap.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2025, 2, 18, 18, 58, 21, 330, DateTimeKind.Local).AddTicks(6829),
+                            CreateDate = new DateTime(2025, 4, 28, 1, 39, 57, 522, DateTimeKind.Local).AddTicks(7246),
                             Email = "admin@gmail.com",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "Admin",
                             Password = "123456",
                             Surname = "User",
-                            UserGuid = new Guid("9c38e15a-b2b5-4d74-b8fa-54b02cfffbb4"),
+                            UserGuid = new Guid("5c43eabc-f045-4e8f-b585-8739a2f3544f"),
                             UserName = "Admin"
                         },
                         new
                         {
                             Id = 2,
-                            CreateDate = new DateTime(2025, 2, 18, 18, 58, 21, 332, DateTimeKind.Local).AddTicks(2148),
+                            CreateDate = new DateTime(2025, 4, 28, 1, 39, 57, 524, DateTimeKind.Local).AddTicks(3440),
                             Email = "samet@gmail.com",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "samet",
                             Password = "1234546",
                             Surname = "User2",
-                            UserGuid = new Guid("c8ae275b-2211-4d43-bf06-a92d60d3fdf4"),
+                            UserGuid = new Guid("7f48f6a5-ae5e-4013-bff9-4b2fb718f3fd"),
                             UserName = "Samet"
                         });
                 });
@@ -201,8 +201,7 @@ namespace Ekitap.Data.Migrations
                         .HasDefaultValueSql("GETDATE()");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(750)
-                        .HasColumnType("nvarchar(750)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
                         .HasMaxLength(100)
@@ -309,8 +308,8 @@ namespace Ekitap.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Logo")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Name")
                         .IsRequired()

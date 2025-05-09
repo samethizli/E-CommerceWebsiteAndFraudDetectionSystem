@@ -1,5 +1,8 @@
 ﻿@model Product
 
+@{
+    ViewData["Title"] = Model.Name;
+}
 <div class="col mb-5">
     <div class="card h-100 shadow-sm" style="transition: 0.3s;">
         <!-- Product image -->
@@ -12,7 +15,7 @@
                 <!-- Product name -->
                 <p class="mb-1">@Model.Name</p>
                 <!-- Product price -->
-                <span style="color: #ff9800; font-weight: bold;">@Model.Price.ToString("c")</span>
+                <span style="color: #D00000; font-weight: bold;">@Model.Price.ToString("c")</span>
             </div>
         </div>
         <!-- Product actions -->

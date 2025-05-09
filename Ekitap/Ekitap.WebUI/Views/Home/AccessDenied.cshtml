@@ -1,0 +1,34 @@
+﻿@{
+	ViewData["Title"] = "Erişim Engellendi!";
+}
+
+<style>
+	.partial-bg {
+		background-image: url('/Img/accesdenied.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		min-height: 400px; /* yüksekliği burada kontrol edebilirsin */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 50px auto;
+		border-radius: 12px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		width: 90%;
+		max-width: 800px;
+	}
+
+	.access-denied-box {
+		background-color: rgba(255, 255, 255, 0.85);
+		padding: 30px;
+		border-radius: 10px;
+		text-align: center;
+	}
+</style>
+
+<div class="partial-bg">
+	<div class="access-denied-box">
+		<h3>🚫 Bu alana erişim yetkiniz bulunmamaktadır!</h3>
+	</div>
+</div>

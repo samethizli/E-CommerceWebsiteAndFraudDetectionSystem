@@ -1,22 +1,354 @@
-﻿<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Ekitap.WebUI</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Anasayfa</a>
-                    </li>
-                    @await Component.InvokeAsync("Categories")
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-controller="Home" asp-action="ContactUs">İletişim</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+﻿<header class="sticky-header">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm mb-3">
+		<div class="container d-flex justify-content-between align-items-center">
+			<a class="navbar-brand" asp-controller="Home" asp-action="Index">
+				<img src="/Img/kitaphayalim.png" alt="kitaphayalim.png" style="width: 203px; height: 57px;">
+			</a>
+
+			<div class="collapse navbar-collapse" id="navbarContent">
+				@* <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		<li class="nav-item">
+			<a class="nav-link" asp-controller="Home" asp-action="Index">Anasayfa</a>
+		</li>
+			@await Component.InvokeAsync("Categories")
+		<li class="nav-item">
+			<a class="nav-link" asp-controller="Home" asp-action="ContactUs">İletişim</a>
+		</li>
+	</ul> *@
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<div class="d-flex align-items-center justify-content-end flex-wrap w-100 gap-4">
+
+					<div class="search-wrapper justify-content-evenly">
+						<form action="/Products" method="get" class="search-form">
+							<input type="text" name="arama" class="search-input" placeholder="Kitap, Yazar, Yayınevi Ara">
+							<button type="submit" class="search-button">
+								<i class="bi bi-search"></i>
+							</button>
+						</form>
+					</div>
+
+					<!-- Favorilerim -->
+						<a href="/Favorites" class="text-center text-dark text-decoration-none">
+						<div class="position-relative">
+							<img src="/Img/header-fav.png" alt="Favorilerim" width="26" height="32">
+						</div>
+						<div class="small mt-1">Favorilerim</div>
+					</a>
+
+					<!-- Kullanıcı Girişi veya Hesabım -->
+					@if (Context.User.Identity.IsAuthenticated)
+					{
+						<div class="dropdown text-center">
+							<a href="#" class="text-dark text-decoration-none d-inline-block" id="userMenu" data-bs-toggle="dropdown" aria-expanded="false">
+								<div class="position-relative d-block">
+									<img src="/Img/user.png" alt="Hesabım" width="25" height="31">
+									<div class="small mt-1">Hesabım</div>
+								</div>
+							</a>
+
+							<ul class="dropdown-menu dropdown-menu-end custom-dropdown shadow" aria-labelledby="userMenu">
+								<li>
+									<a class="dropdown-item d-flex align-items-center" href="/Account">
+										<i class="bi bi-person-fill me-2 text-secondary"></i> Kullanıcı Bilgileri
+									</a>
+								</li>
+								<li>
+									<a class="dropdown-item d-flex align-items-center" href="/Account/Orders">
+										<i class="bi bi-bag-fill me-2 text-secondary"></i> Siparişlerim
+									</a>
+								</li>
+								<li>
+									<a class="dropdown-item d-flex align-items-center" href="/Account/Reviews">
+										<i class="bi bi-chat-left-text-fill me-2 text-secondary"></i> Değerlendirmelerim
+									</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li>
+									<a class="dropdown-item d-flex align-items-center text-danger" href="/Account/SignOut">
+										<i class="bi bi-box-arrow-right me-2"></i> Oturumu Kapat
+									</a>
+								</li>
+							</ul>
+						</div>
+
+
+					}
+					else
+					{
+						<div class="dropdown text-center">
+							<a href="#" class="text-dark text-decoration-none d-inline-block" id="userMenu" data-bs-toggle="dropdown" aria-expanded="false">
+								<div class="position-relative">
+									<img src="/Img/user.png" alt="Üyelik" width="25" height="31">
+								</div>
+								<div class="small mt-1">Üyelik</div> <!-- Burayı da a etiketine ekliyoruz -->
+							</a>
+
+							<ul class="dropdown-menu dropdown-menu-end shadow p-3" aria-labelledby="userMenu" style="min-width: 250px;">
+								<div class="d-grid gap-2">
+									<button type="button" class="btn btn-dark" onclick="location.href='/Account/SignIn'">ÜYE GİRİŞ</button>
+									<button type="button" class="btn btn-outline-dark" onclick="location.href='/Account/SignUp'">ÜYE OL</button>
+								</div>
+							</ul>
+						</div>
+
+
+					}
+
+					<!-- Sepetim -->
+					<a href="#header-cart-panel-316" class="text-center text-dark text-decoration-none">
+						<div class="position-relative">
+							<img src="/Img/basket.png" alt="Sepet" width="46" height="31">
+							<span class="badge bg-danger position-absolute top-0 start-100 translate-middle p-1 rounded-circle" id="cart-count">0</span>
+						</div>
+						<div class="small mt-1">Sepetim</div>
+					</a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</nav>
 </header>
+
+<script>
+	let cartCount = 0;
+	function addToCart() {
+		cartCount++;
+		document.getElementById("cart-count").innerText = cartCount;
+	}
+</script>
+
+<style>
+	.col-3 {
+		flex-basis: 33.3333333333%;
+		max-width: 33.3333333333%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	/* Modern dropdown stilleri */
+	.dropdown-menu {
+		border-radius: 12px;
+		border: none;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+		padding: 1rem;
+		min-width: 260px;
+	}
+
+		.dropdown-menu .dropdown-item {
+			padding: 10px 14px;
+			border-radius: 6px;
+			font-size: 14px;
+			color: #3f4b53;
+			transition: background-color 0.2s;
+		}
+
+			.dropdown-menu .dropdown-item:hover {
+				background-color: #f2f2f2;
+				color: #D00000;
+			}
+
+	.search-wrapper {
+		display: flex;
+		justify-content: center; /* Merkezi hizalar */
+		align-items: center; /* Dikeyde hizalar */
+		margin: 0 auto;
+		height: 100%;
+	}
+
+
+	.search-form {
+		display: flex;
+		width: 487px; /* Formun genişliği */
+		height: 45.49px; /* Formun yüksekliği */
+		border: 2px solid #D00000;
+		border-radius: 6px;
+		overflow: hidden;
+		align-items: center;
+	}
+
+	.search-input {
+		width: 627px; /* Arama kutusunun genişliği */
+		height: 45.49px; /* Arama kutusunun yüksekliği */
+		padding: 0 12px;
+		font-size: 15px;
+		font-family: Calibri, sans-serif;
+		border: none;
+		outline: none;
+	}
+
+	.search-input:focus {
+		outline: none;
+		box-shadow: none;
+	}
+
+	.search-button {
+		width: 50px; /* Butonun genişliği */
+		height: 45.49px; /* Butonun yüksekliği */
+		background-color: #D00000;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.search-button:hover {
+		filter: brightness(1.1);
+	}
+
+	.search-button i {
+		color: white;
+		font-size: 18px;
+	}
+
+/* Navbar stil ayarları */
+.navbar-brand {
+	font-weight: bold;
+	color: #D00000;
+}
+
+.navbar-nav .nav-link {
+	font-weight: 500;
+	color: #3f4b53;
+	transition: color 0.2s;
+}
+
+	.navbar-nav .nav-link:hover {
+		color: #D00000;
+	}
+
+/* Kullanıcı giriş (dropdown) */
+.dropdown-menu {
+	border-radius: 8px;
+	border: 1px solid #ddd;
+	right: 0;
+	left: auto;
+}
+
+	.dropdown-menu .form-label {
+		font-size: 14px;
+		color: #3f4b53;
+	}
+
+	.dropdown-menu .form-control {
+		font-size: 14px;
+	}
+
+	.dropdown-menu a {
+		font-size: 13px;
+		color: #007bff;
+	}
+
+		.dropdown-menu a:hover {
+			text-decoration: underline;
+		}
+
+/* Üye giriş butonları */
+.btn-giris,
+.btn-uye-ol {
+	flex: 1;
+	padding: 8px 12px;
+	border: none;
+	border-radius: 4px;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.btn-giris {
+	background-color: #3f4b53;
+}
+
+.btn-uye-ol {
+	background-color: #007bff;
+	margin-right: 0;
+}
+
+	.btn-giris:hover,
+	.btn-uye-ol:hover {
+		opacity: 0.9;
+	}
+
+/* Sepet simgesi */
+#cart-count {
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+	/* Üyelik menüsü düğmesi */
+	#userMenu {
+		padding: 6px 12px;
+		border-radius: 6px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		transition: background-color 0.2s;
+	}
+
+		#userMenu:hover {
+			background-color: #f8f9fa;
+		}
+
+		#userMenu img.user-img {
+			width: 30px;
+			height: 30px;
+			object-fit: contain;
+			border-radius: 50%;
+			background-color: #f0f0f0;
+			padding: 2px;
+		}
+
+	.navbar {
+    display: flex;
+    justify-content: center; /* Navbar'ı tam ortalar */
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+	.navbar-brand {
+		display: flex;
+		justify-content: center; /* Logo'yu ortalar */
+		align-items: center; /* Logo'yu dikeyde ortalar */
+		flex-shrink: 0; /* Logo boyutunun küçülmesini engeller */
+		margin: 0; /* Gereksiz dış boşlukları kaldırır */
+	}
+
+		.navbar-brand img {
+			display: block; /* Görselin altındaki boşluğu ortadan kaldırır */
+			margin: 0; /* Görselin etrafındaki boşlukları sıfırlar */
+		}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Menü öğelerini ortalar */
+    flex-grow: 1;
+}
+
+	.sticky-header {
+		position: sticky;
+		top: 0; /* Üstteki 0 pikselde sabit kalır */
+		width: 100%; /* Genişliği tam sayfa genişliği kadar olacak */
+		z-index: 1000; /* Diğer öğelerin üzerinde görünmesini sağlar */
+		background-color: white; /* Arka plan rengini beyaz yaparak, içeriği görünür yapar */
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Biraz gölge ekleyerek daha belirgin hale getirebiliriz */
+	}
+
+
+</style>

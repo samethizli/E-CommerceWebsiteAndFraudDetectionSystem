@@ -1,0 +1,215 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Giriş";
+}
+
+<style>
+    :root {
+        --bs-gray-250: #f8f9fa;
+    }
+
+    /* Genel düzen */
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        background-color: var(--bs-body-bg, #fff);
+        color: var(--bs-body-color, #000);
+        font-size: var(--bs-body-font-size, 1rem);
+        font-weight: var(--bs-body-font-weight, 400);
+        line-height: var(--bs-body-line-height, 1.5);
+        text-align: var(--bs-body-text-align, left);
+    }
+
+    main {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .desktop-content-limit, .desktop-layout-limit {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        min-width: 960px;
+    }
+
+    .desktop-content-limit {
+        padding: 5px 10px 30px;
+    }
+
+    /* Giriş/Kayıt arka planı */
+    .login--desktop {
+        background-color: var(--bs-gray-250);
+        background-image: url('/Img/girişekranı.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Ortalayıcı konteyner */
+    .outer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    /* Form kutusu */
+    .form-container {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        width: 100%;
+        padding: 3rem;
+        transition: all 0.3s ease;
+        margin-right: 30px;
+    }
+
+    /* Giriş formu */
+    .form-signin input.form-control,
+    .form-signup input.form-control {
+        height: 50px;
+        font-size: 1rem;
+        border-radius: 12px;
+        padding-left: 1.2rem;
+    }
+
+    .form-signup input.form-control {
+        height: 45px;
+        padding-left: 1rem;
+    }
+
+    .form-signin button,
+    .form-signup button,
+    .form-signup input[type="submit"] {
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 1.05rem;
+    }
+
+    .form-signin .form-check-label,
+    .form-signup .form-check-label {
+        font-size: 0.95rem;
+    }
+
+    .alert-danger {
+        border-radius: 10px;
+        font-size: 0.9rem;
+        padding-left: 1rem;
+    }
+
+    /* Görsel kutusu */
+    .login-img-cr {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    /* Giriş/Kayıt görseli */
+    .login-giris-yazi {
+        position: relative;
+        width: 100%;
+        max-width: 350px;
+        bottom: -90px;
+    }
+
+    /* Giriş özel butonu */
+    .btn-login {
+        background-color: #D00000;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 12px;
+        border-radius: 12px;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-login:hover {
+            background-color: #a80000;
+        }
+
+    /* Kayıt yönlendirme butonu */
+    .btn-signup {
+        background-color: white;
+        color: #333;
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 12px;
+        border-radius: 12px;
+        border: 2px solid #ccc;
+        width: 100%;
+        margin-top: 12px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .btn-signup:hover {
+            background-color: #002B5B;
+            color: white;
+            border-color: #002B5B;
+        }
+
+</style>
+<main id="login" class="login login--desktop">
+    <div class="container-fluid desktop-content-limit">
+        <div class="outer-container">
+            <!-- Form kısmı -->
+            <div class="form-container">
+                <form asp-action="SignIn" method="post" class="form-signin">
+                    <h1 class="h3 mb-4 fw-bold text-center text-dark">Üye Girişi</h1>
+
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small"></div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" class="form-control" type="password" />
+                        <span asp-validation-for="Password" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input asp-for="RememberMe" class="form-check-input" type="checkbox" id="checkDefault" />
+                        <label class="form-check-label" for="checkDefault">Beni Hatırla</label>
+                    </div>
+
+                    <input type="hidden" asp-for="ReturnUrl" value="@Context.Request.Query["ReturnUrl"]" />
+
+                    <button type="submit" class="btn btn-login w-100">Giriş Yap</button>
+                    <a href="/Account/SignUp" class="btn btn-signup text-center d-block">Ücretsiz Üye Ol</a>
+                </form>
+            </div>
+
+            <!-- Görsel kısmı -->
+            <section class="login-img-cr">
+                <div id="js-login-img-wr" class="login-img-wr">
+                    <img src="/Img/girişyazı.png" alt="Giriş Yazı" class="login-giris-yazi">
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+
+

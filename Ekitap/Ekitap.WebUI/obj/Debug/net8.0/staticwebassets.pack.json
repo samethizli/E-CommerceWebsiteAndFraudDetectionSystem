@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\Ekitap.WebUI.5wngvwntbe.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Bankalar2.png",
+      "PackagePath": "staticwebassets\\Img\\Bankalar2.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Categories-icons.png",
+      "PackagePath": "staticwebassets\\Img\\Categories-icons.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Links-icon-2.png",
+      "PackagePath": "staticwebassets\\Img\\Links-icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Links-icon.png",
+      "PackagePath": "staticwebassets\\Img\\Links-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\11743443904.png",
+      "PackagePath": "staticwebassets\\Img\\News\\11743443904.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\11743443990.png",
+      "PackagePath": "staticwebassets\\Img\\News\\11743443990.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\slider3.png",
+      "PackagePath": "staticwebassets\\Img\\News\\slider3.png"
+    },
+    {
       "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Products\\1710834764.jpg",
       "PackagePath": "staticwebassets\\Img\\Products\\1710834764.jpg"
     },
@@ -43,6 +71,54 @@
     {
       "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Writers\\indir.png",
       "PackagePath": "staticwebassets\\Img\\Writers\\indir.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\accesdenied.jpg",
+      "PackagePath": "staticwebassets\\Img\\accesdenied.jpg"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\basket.png",
+      "PackagePath": "staticwebassets\\Img\\basket.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\body_alt.png",
+      "PackagePath": "staticwebassets\\Img\\body_alt.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\girişekranı.png",
+      "PackagePath": "staticwebassets\\Img\\girişekranı.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\girişyazı.png",
+      "PackagePath": "staticwebassets\\Img\\girişyazı.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\hUser.png",
+      "PackagePath": "staticwebassets\\Img\\hUser.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\header-fav.png",
+      "PackagePath": "staticwebassets\\Img\\header-fav.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\indir (1).png",
+      "PackagePath": "staticwebassets\\Img\\indir (1).png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\kitaphayalim.png",
+      "PackagePath": "staticwebassets\\Img\\kitaphayalim.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\user.png",
+      "PackagePath": "staticwebassets\\Img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\üyeolekranı.png",
+      "PackagePath": "staticwebassets\\Img\\üyeolekranı.png"
+    },
+    {
+      "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\üyeolyazısı.png",
+      "PackagePath": "staticwebassets\\Img\\üyeolyazısı.png"
     },
     {
       "Id": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\admin\\401.html",

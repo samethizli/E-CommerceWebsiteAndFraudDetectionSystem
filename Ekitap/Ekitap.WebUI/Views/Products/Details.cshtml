@@ -1,5 +1,9 @@
 ﻿@model ProductDetailViewModel
 
+@{
+    ViewData["Title"] = Model.Product.Name;
+}
+
 <style>
     .product-wrapper {
         display: flex;
@@ -31,6 +35,7 @@
         width: 100%;
         border-radius: 10px;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+        font-family: Calibri, "Calibri Bold", "Calibri Bold Italic", sans-serif;
     }
 
     .product-details {
@@ -147,13 +152,17 @@
             </div>
 
             <div class="btn-container">
-                <button class="btn btnHemenAl" onclick="HemenAlButon1(@Model.Product.Id);">Hemen Al</button>
+                <button class="btn btnHemenAl" style="outline: none; box-shadow: none; color: white;" onclick="HemenAlButon1(@Model.Product.Id);">
+                    Hemen Al
+                </button>
 
                 <button class="btn btnAzalt" onclick="azaltMiktar()">-</button>
                 <input type="text" id="urunMiktar" value="1" readonly>
                 <button class="btn btnArttir" onclick="arttirMiktar()">+</button>
 
-                <button class="btn btnSepetEkle" onclick="btnSepeteEkle(@Model.Product.Id, 0);">Sepete Ekle</button>
+                <button class="btn btnSepetEkle" style="outline: none; box-shadow: none; color: white !important;" onclick="btnSepeteEkle(@Model.Product.Id, 0);">
+                    Sepete Ekle
+                </button>
             </div>
         </div>
     </div>

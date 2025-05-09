@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Ekitap.Core.Entities;
 using Ekitap.Data;
 using Ekitap.WebUI.Utils;
-using Microsoft.CodeAnalysis.Elfie.Serialization;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Ekitap.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")]
     public class SlidersController : Controller
     {
         private readonly DatabaseContext _context;

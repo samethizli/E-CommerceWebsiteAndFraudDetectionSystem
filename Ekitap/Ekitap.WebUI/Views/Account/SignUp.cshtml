@@ -1,0 +1,165 @@
+﻿@model AppUser
+
+@{
+    ViewData["Title"] = "Üye Kayıt";
+}
+
+<style>
+    .login--desktop {
+        background-color: var(--bs-gray-250);
+        background-image: url('/Img/üyeolekranı.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center; /* Form ve resmi yatayda ortalamak için */
+        align-items: center; /* Dikeyde ortalamak için */
+        min-height: 100vh;
+    }
+
+    .outer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 1100px; /* Genişlik sınırı ekle */
+        margin: auto;
+    }
+
+
+    .form-container {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        width: 100%;
+        padding: 3rem;
+        transition: all 0.3s ease;
+        margin-right: 30px; /* Form ve resim arasındaki boşluk */
+    }
+
+    .login--desktop .login-img-cr {
+        display: flex;
+        justify-content: flex-start; /* Yazıyı sola yasla */
+        align-items: flex-start; /* Yazıyı üstte hizala */
+        position: relative;
+        width: 350px; /* Genişliği yazı kadar yap */
+        height: auto;
+        margin-left: 30px; /* Form ile arasına boşluk */
+    }
+
+    .login-giris-yazi {
+        position: relative; /* Artık absolute'e gerek yok */
+        width: 100%;
+        max-width: 350px;
+        bottom:-90px;
+    }
+
+
+    .form-signup input.form-control {
+        height: 45px;
+        font-size: 1rem;
+        border-radius: 10px;
+        padding-left: 1rem;
+    }
+
+    .form-signup button, .form-signup input[type="submit"] {
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 1.05rem;
+    }
+
+    .form-signup .form-check-label {
+        font-size: 0.95rem;
+    }
+
+    .alert-danger {
+        border-radius: 10px;
+        font-size: 0.9rem;
+        padding-left: 1rem;
+    }
+
+    main {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+</style>
+
+<main id="signup" class="login login--desktop">
+    <div class="container-fluid desktop-content-limit">
+        <div class="outer-container">
+            <!-- Form kısmı -->
+            <div class="form-container">
+                <form asp-action="SignUp" method="post" class="form-signup">
+                    <h1 class="h3 mb-4 fw-bold text-center text-dark">Üye Kayıt</h1>
+
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small"></div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Surname" class="form-label"></label>
+                        <input asp-for="Surname" class="form-control" />
+                        <span asp-validation-for="Surname" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Phone" class="form-label"></label>
+                        <input asp-for="Phone" class="form-control" />
+                        <span asp-validation-for="Phone" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="UserName" class="form-label"></label>
+                        <input asp-for="UserName" class="form-control" />
+                        <span asp-validation-for="UserName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" class="form-control" type="password" />
+                        <span asp-validation-for="Password" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <input type="submit" value="Kayıt Ol" class="btn btn-dark w-100 py-2" />
+                    </div>
+                    <div class="mt-3 fs-7">
+                        Zaten üye iseniz lütfen <a href="/Account/SignIn" class="fw-bold text-decoration-none text-black">Giriş Yap</a> sayfasına gidin.
+                    </div>
+                </form>
+            </div>
+
+            <!-- Resim kısmı -->
+            <section class="login-img-cr">
+                <div id="js-login-img-wr" class="login-img-wr">
+                    <img src="/Img/üyeolyazısı.png" alt="Kayıt Yazı" class="login-giris-yazi">
+                </div>
+            </section>
+        </div>
+    </div>
+</main>

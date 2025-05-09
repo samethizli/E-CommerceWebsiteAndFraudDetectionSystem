@@ -19,6 +19,22 @@ wwwroot\admin\register.html
 wwwroot\admin\tables.html
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Img\accesdenied.jpg
+wwwroot\Img\Bankalar2.png
+wwwroot\Img\basket.png
+wwwroot\Img\body_alt.png
+wwwroot\Img\Categories-icons.png
+wwwroot\Img\girişekranı.png
+wwwroot\Img\girişyazı.png
+wwwroot\Img\header-fav.png
+wwwroot\Img\hUser.png
+wwwroot\Img\indir (1).png
+wwwroot\Img\kitaphayalim.png
+wwwroot\Img\Links-icon.png
+wwwroot\Img\Links-icon-2.png
+wwwroot\Img\News\11743443904.png
+wwwroot\Img\News\11743443990.png
+wwwroot\Img\News\slider3.png
 wwwroot\Img\Products\1710834764.jpg
 wwwroot\Img\Products\ımg-20250304-wa0009.jpg
 wwwroot\Img\Products\ımg-20250304-wa0012.webp
@@ -28,6 +44,9 @@ wwwroot\Img\PublishingHouses\indir.png
 wwwroot\Img\Sliders\slider1.png
 wwwroot\Img\Sliders\slider2.png
 wwwroot\Img\Sliders\slider3.png
+wwwroot\Img\user.png
+wwwroot\Img\üyeolekranı.png
+wwwroot\Img\üyeolyazısı.png
 wwwroot\Img\Writers\indir.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

@@ -1,7 +1,65 @@
-﻿@{
+﻿@model Ekitap.Core.Entities.Contact
+
+@{
     ViewData["Title"] = "İletişim";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">İletişim</h1>
 </div>
+<hr />
+<div class="row">
+    <!-- Form kısmı -->
+    <div class="col-md-6">
+        <form asp-action="ContactUs" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Adınız</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Surname" class="control-label">Soyadınız</label>
+                <input asp-for="Surname" class="form-control" />
+                <span asp-validation-for="Surname" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label">Email Adresiniz</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label">Telefon</label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Message" class="control-label">Mesajınız</label>
+                <textarea asp-for="Message" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <input type="submit" value="Mesajı Gönder" class="btn btn-primary" style="background-color:#D00000; color:white;" />
+            </div>
+        </form>
+    </div>
+
+    <!-- Harita kısmı -->
+    <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24070.675319003243!2d28.880614454696698!3d41.05075002998101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caba81ed5c68f9%3A0xfbbec749f5fd7e0c!2zQmF5cmFtcGHFn2EvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1746481819357!5m2!1str!2str"
+                width="100%" height="100%" style="min-height: 400px; border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+}

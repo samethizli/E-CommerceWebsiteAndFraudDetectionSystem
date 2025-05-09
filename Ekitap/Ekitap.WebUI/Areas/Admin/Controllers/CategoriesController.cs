@@ -3,11 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using Ekitap.Core.Entities;
 using Ekitap.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Ekitap.WebUI.Utils;//seleclist
+using Ekitap.WebUI.Utils;
+using Microsoft.AspNetCore.Authorization;//seleclist
 
 namespace Ekitap.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")]
     public class CategoriesController : Controller
     {
         private readonly DatabaseContext _context;

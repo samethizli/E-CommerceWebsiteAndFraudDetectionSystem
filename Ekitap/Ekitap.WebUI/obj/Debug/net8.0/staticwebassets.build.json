@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qUfcTcRYtzlgYl9Ukfc5LDzztlmeri642agLvfZ+YeM=",
+  "Hash": "wuVKQ2qLuo41bq0rwOeFJ7gsDd8zKgfW6itG+K5Zivc=",
   "Source": "Ekitap.WebUI",
   "BasePath": "_content/Ekitap.WebUI",
   "Mode": "Default",
@@ -472,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "25ebldxysc",
+      "Integrity": "qsrB9VmGtRC5bXJWbPRArK/vrM0BGFf1dsahCemKcFs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -498,6 +498,342 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\accesdenied.jpg",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/accesdenied#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6d5oz11uzg",
+      "Integrity": "Kmg6QzztNhwTIFcqtFW0vhHjPfZb+7H3MWlvfQv4azw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\accesdenied.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Bankalar2.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/Bankalar2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tyoj9xvua5",
+      "Integrity": "JUKA2Z9r8xI1NOKFBpUzlhTNVHC4wtfZ1jrJZ3NqBT4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Bankalar2.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\basket.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/basket#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pssevu3d0j",
+      "Integrity": "t0+psZRm3SOJrR6Idw4H9E05MbkOHsppjGmCOdY9H4k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\basket.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\body_alt.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/body_alt#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4l9s4o024",
+      "Integrity": "M3961UFVX8QKw+FCi6ltQHCT35BYb7nXYThxw3YZ6Ko=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\body_alt.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Categories-icons.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/Categories-icons#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v7xxx790zb",
+      "Integrity": "a/OmONlskYFUzFvxmiz1QUsSg83smOIB2eURMQ6NgXg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Categories-icons.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\girişekranı.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/girişekranı#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rymar1m4gw",
+      "Integrity": "w5FK6/wUD2BCcGXluOkCA++wBNBIXaz6PtzThvv22Eg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\girişekranı.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\girişyazı.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/girişyazı#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d9w9m4nj09",
+      "Integrity": "kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\girişyazı.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\header-fav.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/header-fav#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mkglniiely",
+      "Integrity": "JuZvInCe0aZ0BARkI60TB/+Xmj2UTsqaCNLOKuZcZDs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\header-fav.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\hUser.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/hUser#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fi65px8t6m",
+      "Integrity": "N01369AcqBZsNbdPo92E/a+PK76DSAQAUySoZe2nxuE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\hUser.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\indir (1).png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/indir (1)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "18qoctw0p1",
+      "Integrity": "wbroUdGoF1B69Y75AWbp4OLEvSoX/fEtSmR30WH+ejY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\indir (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\kitaphayalim.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/kitaphayalim#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yyrtnv8xdu",
+      "Integrity": "2kVg973Jd20BMuvHb6dzbUj7vUNhExwcQ7oi+sUXCQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\kitaphayalim.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Links-icon.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/Links-icon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1nn3wyhpag",
+      "Integrity": "ky3hqDb69B+6JsKCdJ/LiA60GbxZZDusA4hrxPH7ImQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Links-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Links-icon-2.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/Links-icon-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k66y3mo7jn",
+      "Integrity": "NHG0D2+gygmiuMBEoGCQnYNT7Xyd1RLeQBPGWH3XQxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Links-icon-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\11743443904.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/News/11743443904#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yjfwvl31zg",
+      "Integrity": "QobAq3e2R4TlZaXKqkou9yfFJCFSTj5+7JLU90Pw/0w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\News\\11743443904.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\11743443990.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/News/11743443990#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ycs1ng2qpi",
+      "Integrity": "0pxqZgLrPlsnEFlwjrIakYA0quA8GpBXBB8Ouh0v0NA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\News\\11743443990.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\slider3.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/News/slider3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjqys16t2e",
+      "Integrity": "GGXtgbM7fTDKTV3IZK9JhlhADdjXNKjAAc+Z9wqMeqg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\News\\slider3.png"
     },
     {
       "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Products\\1710834764.jpg",
@@ -687,6 +1023,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\Sliders\\slider3.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\user.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/user#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mscatjwi5p",
+      "Integrity": "urcLWmzcLsG4EJmz4rgY7d2ftTXiOgfnxgS+jIVYbfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\user.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\üyeolekranı.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/üyeolekranı#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "56bfklsmdk",
+      "Integrity": "TS7X+2H/jJQPjKPEO6ZWtITw73LTLwt6BSnGeZPih8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\üyeolekranı.png"
+    },
+    {
+      "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\üyeolyazısı.png",
+      "SourceId": "Ekitap.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\",
+      "BasePath": "_content/Ekitap.WebUI",
+      "RelativePath": "Img/üyeolyazısı#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d9w9m4nj09",
+      "Integrity": "kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\üyeolyazısı.png"
     },
     {
       "Identity": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Writers\\indir.png",
@@ -3488,7 +3887,7 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.25ebldxysc.css",
       "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3498,7 +3897,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "458"
         },
         {
           "Name": "Content-Type",
@@ -3506,11 +3905,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"qsrB9VmGtRC5bXJWbPRArK/vrM0BGFf1dsahCemKcFs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 22:08:56 GMT"
+          "Value": "Tue, 29 Apr 2025 00:08:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3520,7 +3919,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "25ebldxysc"
         },
         {
           "Name": "label",
@@ -3528,7 +3927,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-qsrB9VmGtRC5bXJWbPRArK/vrM0BGFf1dsahCemKcFs="
         }
       ]
     },
@@ -3543,7 +3942,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "458"
         },
         {
           "Name": "Content-Type",
@@ -3551,11 +3950,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"qsrB9VmGtRC5bXJWbPRArK/vrM0BGFf1dsahCemKcFs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 22:08:56 GMT"
+          "Value": "Tue, 29 Apr 2025 00:08:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3565,7 +3964,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-qsrB9VmGtRC5bXJWbPRArK/vrM0BGFf1dsahCemKcFs="
         }
       ]
     },
@@ -3592,7 +3991,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 13:31:27 GMT"
+          "Value": "Thu, 08 May 2025 22:38:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3637,7 +4036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 13:31:27 GMT"
+          "Value": "Thu, 08 May 2025 22:38:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3682,7 +4081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 13:31:27 GMT"
+          "Value": "Thu, 08 May 2025 22:38:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3719,7 +4118,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Mar 2025 13:31:27 GMT"
+          "Value": "Thu, 08 May 2025 22:38:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3812,6 +4211,1318 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/accesdenied.6d5oz11uzg.jpg",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\accesdenied.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kmg6QzztNhwTIFcqtFW0vhHjPfZb+7H3MWlvfQv4azw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6d5oz11uzg"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/accesdenied.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kmg6QzztNhwTIFcqtFW0vhHjPfZb+7H3MWlvfQv4azw="
+        }
+      ]
+    },
+    {
+      "Route": "Img/accesdenied.jpg",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\accesdenied.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kmg6QzztNhwTIFcqtFW0vhHjPfZb+7H3MWlvfQv4azw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:11:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kmg6QzztNhwTIFcqtFW0vhHjPfZb+7H3MWlvfQv4azw="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Bankalar2.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Bankalar2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JUKA2Z9r8xI1NOKFBpUzlhTNVHC4wtfZ1jrJZ3NqBT4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:14:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JUKA2Z9r8xI1NOKFBpUzlhTNVHC4wtfZ1jrJZ3NqBT4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Bankalar2.tyoj9xvua5.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Bankalar2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JUKA2Z9r8xI1NOKFBpUzlhTNVHC4wtfZ1jrJZ3NqBT4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:14:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tyoj9xvua5"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Bankalar2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JUKA2Z9r8xI1NOKFBpUzlhTNVHC4wtfZ1jrJZ3NqBT4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/basket.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\basket.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t0+psZRm3SOJrR6Idw4H9E05MbkOHsppjGmCOdY9H4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:58:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t0+psZRm3SOJrR6Idw4H9E05MbkOHsppjGmCOdY9H4k="
+        }
+      ]
+    },
+    {
+      "Route": "Img/basket.pssevu3d0j.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\basket.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t0+psZRm3SOJrR6Idw4H9E05MbkOHsppjGmCOdY9H4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:58:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pssevu3d0j"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/basket.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t0+psZRm3SOJrR6Idw4H9E05MbkOHsppjGmCOdY9H4k="
+        }
+      ]
+    },
+    {
+      "Route": "Img/body_alt.j4l9s4o024.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\body_alt.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M3961UFVX8QKw+FCi6ltQHCT35BYb7nXYThxw3YZ6Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4l9s4o024"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/body_alt.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M3961UFVX8QKw+FCi6ltQHCT35BYb7nXYThxw3YZ6Ko="
+        }
+      ]
+    },
+    {
+      "Route": "Img/body_alt.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\body_alt.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M3961UFVX8QKw+FCi6ltQHCT35BYb7nXYThxw3YZ6Ko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M3961UFVX8QKw+FCi6ltQHCT35BYb7nXYThxw3YZ6Ko="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Categories-icons.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Categories-icons.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a/OmONlskYFUzFvxmiz1QUsSg83smOIB2eURMQ6NgXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:06:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a/OmONlskYFUzFvxmiz1QUsSg83smOIB2eURMQ6NgXg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Categories-icons.v7xxx790zb.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Categories-icons.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a/OmONlskYFUzFvxmiz1QUsSg83smOIB2eURMQ6NgXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 00:06:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v7xxx790zb"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Categories-icons.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a/OmONlskYFUzFvxmiz1QUsSg83smOIB2eURMQ6NgXg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/girişekranı.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\girişekranı.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w5FK6/wUD2BCcGXluOkCA++wBNBIXaz6PtzThvv22Eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:33:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w5FK6/wUD2BCcGXluOkCA++wBNBIXaz6PtzThvv22Eg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/girişekranı.rymar1m4gw.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\girişekranı.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "159015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w5FK6/wUD2BCcGXluOkCA++wBNBIXaz6PtzThvv22Eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:33:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rymar1m4gw"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/girişekranı.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w5FK6/wUD2BCcGXluOkCA++wBNBIXaz6PtzThvv22Eg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/girişyazı.d9w9m4nj09.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\girişyazı.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:34:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d9w9m4nj09"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/girişyazı.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/girişyazı.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\girişyazı.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:34:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/header-fav.mkglniiely.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\header-fav.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JuZvInCe0aZ0BARkI60TB/+Xmj2UTsqaCNLOKuZcZDs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 13:49:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mkglniiely"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/header-fav.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JuZvInCe0aZ0BARkI60TB/+Xmj2UTsqaCNLOKuZcZDs="
+        }
+      ]
+    },
+    {
+      "Route": "Img/header-fav.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\header-fav.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JuZvInCe0aZ0BARkI60TB/+Xmj2UTsqaCNLOKuZcZDs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 13:49:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JuZvInCe0aZ0BARkI60TB/+Xmj2UTsqaCNLOKuZcZDs="
+        }
+      ]
+    },
+    {
+      "Route": "Img/hUser.fi65px8t6m.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\hUser.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N01369AcqBZsNbdPo92E/a+PK76DSAQAUySoZe2nxuE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 17:41:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fi65px8t6m"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/hUser.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N01369AcqBZsNbdPo92E/a+PK76DSAQAUySoZe2nxuE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/hUser.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\hUser.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N01369AcqBZsNbdPo92E/a+PK76DSAQAUySoZe2nxuE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 17:41:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N01369AcqBZsNbdPo92E/a+PK76DSAQAUySoZe2nxuE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/indir (1).18qoctw0p1.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\indir (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wbroUdGoF1B69Y75AWbp4OLEvSoX/fEtSmR30WH+ejY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 17:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "18qoctw0p1"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/indir (1).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wbroUdGoF1B69Y75AWbp4OLEvSoX/fEtSmR30WH+ejY="
+        }
+      ]
+    },
+    {
+      "Route": "Img/indir (1).png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\indir (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wbroUdGoF1B69Y75AWbp4OLEvSoX/fEtSmR30WH+ejY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 17:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wbroUdGoF1B69Y75AWbp4OLEvSoX/fEtSmR30WH+ejY="
+        }
+      ]
+    },
+    {
+      "Route": "Img/kitaphayalim.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\kitaphayalim.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2kVg973Jd20BMuvHb6dzbUj7vUNhExwcQ7oi+sUXCQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 22:35:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2kVg973Jd20BMuvHb6dzbUj7vUNhExwcQ7oi+sUXCQw="
+        }
+      ]
+    },
+    {
+      "Route": "Img/kitaphayalim.yyrtnv8xdu.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\kitaphayalim.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "116478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2kVg973Jd20BMuvHb6dzbUj7vUNhExwcQ7oi+sUXCQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 22:35:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yyrtnv8xdu"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/kitaphayalim.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2kVg973Jd20BMuvHb6dzbUj7vUNhExwcQ7oi+sUXCQw="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Links-icon.1nn3wyhpag.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Links-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ky3hqDb69B+6JsKCdJ/LiA60GbxZZDusA4hrxPH7ImQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 23:53:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1nn3wyhpag"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Links-icon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ky3hqDb69B+6JsKCdJ/LiA60GbxZZDusA4hrxPH7ImQ="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Links-icon.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Links-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ky3hqDb69B+6JsKCdJ/LiA60GbxZZDusA4hrxPH7ImQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 23:53:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ky3hqDb69B+6JsKCdJ/LiA60GbxZZDusA4hrxPH7ImQ="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Links-icon-2.k66y3mo7jn.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Links-icon-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2883"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NHG0D2+gygmiuMBEoGCQnYNT7Xyd1RLeQBPGWH3XQxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 23:59:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k66y3mo7jn"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Links-icon-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHG0D2+gygmiuMBEoGCQnYNT7Xyd1RLeQBPGWH3XQxo="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Links-icon-2.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\Links-icon-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2883"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NHG0D2+gygmiuMBEoGCQnYNT7Xyd1RLeQBPGWH3XQxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 23:59:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHG0D2+gygmiuMBEoGCQnYNT7Xyd1RLeQBPGWH3XQxo="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/11743443904.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\11743443904.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "183853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QobAq3e2R4TlZaXKqkou9yfFJCFSTj5+7JLU90Pw/0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 22:53:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QobAq3e2R4TlZaXKqkou9yfFJCFSTj5+7JLU90Pw/0w="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/11743443904.yjfwvl31zg.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\11743443904.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "183853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QobAq3e2R4TlZaXKqkou9yfFJCFSTj5+7JLU90Pw/0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 22:53:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yjfwvl31zg"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/News/11743443904.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QobAq3e2R4TlZaXKqkou9yfFJCFSTj5+7JLU90Pw/0w="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/11743443990.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\11743443990.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0pxqZgLrPlsnEFlwjrIakYA0quA8GpBXBB8Ouh0v0NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 22:53:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0pxqZgLrPlsnEFlwjrIakYA0quA8GpBXBB8Ouh0v0NA="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/11743443990.ycs1ng2qpi.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\11743443990.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0pxqZgLrPlsnEFlwjrIakYA0quA8GpBXBB8Ouh0v0NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 22:53:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ycs1ng2qpi"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/News/11743443990.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0pxqZgLrPlsnEFlwjrIakYA0quA8GpBXBB8Ouh0v0NA="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/slider3.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\slider3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGXtgbM7fTDKTV3IZK9JhlhADdjXNKjAAc+Z9wqMeqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:11:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGXtgbM7fTDKTV3IZK9JhlhADdjXNKjAAc+Z9wqMeqg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/slider3.sjqys16t2e.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\News\\slider3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGXtgbM7fTDKTV3IZK9JhlhADdjXNKjAAc+Z9wqMeqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:11:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjqys16t2e"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/News/slider3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGXtgbM7fTDKTV3IZK9JhlhADdjXNKjAAc+Z9wqMeqg="
         }
       ]
     },
@@ -4550,6 +6261,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-GGXtgbM7fTDKTV3IZK9JhlhADdjXNKjAAc+Z9wqMeqg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/user.mscatjwi5p.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"urcLWmzcLsG4EJmz4rgY7d2ftTXiOgfnxgS+jIVYbfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mscatjwi5p"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/user.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-urcLWmzcLsG4EJmz4rgY7d2ftTXiOgfnxgS+jIVYbfs="
+        }
+      ]
+    },
+    {
+      "Route": "Img/user.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"urcLWmzcLsG4EJmz4rgY7d2ftTXiOgfnxgS+jIVYbfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 22:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-urcLWmzcLsG4EJmz4rgY7d2ftTXiOgfnxgS+jIVYbfs="
+        }
+      ]
+    },
+    {
+      "Route": "Img/üyeolekranı.56bfklsmdk.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\üyeolekranı.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "248967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TS7X+2H/jJQPjKPEO6ZWtITw73LTLwt6BSnGeZPih8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:51:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "56bfklsmdk"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/üyeolekranı.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TS7X+2H/jJQPjKPEO6ZWtITw73LTLwt6BSnGeZPih8c="
+        }
+      ]
+    },
+    {
+      "Route": "Img/üyeolekranı.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\üyeolekranı.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "248967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TS7X+2H/jJQPjKPEO6ZWtITw73LTLwt6BSnGeZPih8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:51:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TS7X+2H/jJQPjKPEO6ZWtITw73LTLwt6BSnGeZPih8c="
+        }
+      ]
+    },
+    {
+      "Route": "Img/üyeolyazısı.d9w9m4nj09.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\üyeolyazısı.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d9w9m4nj09"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/üyeolyazısı.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/üyeolyazısı.png",
+      "AssetFile": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\wwwroot\\Img\\üyeolyazısı.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63839"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kaES+vttdxBCdlHAPFZlqEFaDR+bCX0uA7opxLLe+RM="
         }
       ]
     },

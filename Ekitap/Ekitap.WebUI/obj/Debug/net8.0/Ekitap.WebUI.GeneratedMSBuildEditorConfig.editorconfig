@@ -68,6 +68,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Areas/Admin/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Areas/Admin/Views/Contacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Areas/Admin/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Areas/Admin/Views/Contacts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -200,8 +212,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/CategoriesController/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0NvbnRyb2xsZXJcSW5kZXguY3NodG1s
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Account/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Account/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Favorites/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Home/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Home/ContactUs.cshtml]
@@ -214,6 +246,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/News/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Products/Details.cshtml]
@@ -238,6 +278,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Shared/_LoginDropdownPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkRyb3Bkb3duUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/samet/source/repos/Ekitap/Ekitap.WebUI/Views/Shared/_NewsView.cshtml]

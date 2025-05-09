@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\samet\\source\\repos\\Ekitap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\shared\\_newsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\shared\\_newsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\shared\\_productview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\shared\\_productview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -27,16 +11,40 @@
       "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\shared\\_productview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\shared\\_productview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\shared\\_slider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\shared\\_slider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\favorites\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\favorites\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|c:\\users\\samet\\source\\repos\\ekitap\\ekitap.webui\\extensionmethods\\sessionextensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91AB2ED7-C5C4-4B8C-B074-BFEB40A72832}|Ekitap.WebUI\\Ekitap.WebUI.csproj|solutionrelative:ekitap.webui\\extensionmethods\\sessionextensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,20 +54,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_NewsView.cshtml",
-              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Shared\\_NewsView.cshtml",
-              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Shared\\_NewsView.cshtml",
-              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Shared\\_NewsView.cshtml",
-              "RelativeToolTip": "Ekitap.WebUI\\Views\\Shared\\_NewsView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Ekitap.WebUI\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAwwJoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T15:22:10.133Z",
+              "WhenOpened": "2025-05-09T16:43:41.584Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Ekitap.WebUI\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T16:43:39.276Z"
             },
             {
               "$type": "Document",
@@ -69,100 +89,105 @@
               "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Shared\\_ProductView.cshtml",
               "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Shared\\_ProductView.cshtml",
               "RelativeToolTip": "Ekitap.WebUI\\Views\\Shared\\_ProductView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T14:53:45.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T16:40:19.898Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Ekitap.WebUI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Ekitap.WebUI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:51:47.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "Ekitap.WebUI\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Title": "_Slider.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Shared\\_Slider.cshtml",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Shared\\_Slider.cshtml",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Shared\\_Slider.cshtml",
+              "RelativeToolTip": "Ekitap.WebUI\\Views\\Shared\\_Slider.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-15T14:51:25.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Ekitap.WebUI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Ekitap.WebUI\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T16:05:20.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Ekitap.WebUI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Ekitap.WebUI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T16:04:16.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T16:38:31.076Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "Ekitap.WebUI\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Title": "FavoritesController.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Controllers\\FavoritesController.cs",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Controllers\\FavoritesController.cs",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Controllers\\FavoritesController.cs",
+              "RelativeToolTip": "Ekitap.WebUI\\Controllers\\FavoritesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T16:36:59.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Ekitap.WebUI\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T16:03:05.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T14:24:33.679Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Ekitap.WebUI\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Ekitap.WebUI\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T16:01:22.476Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Ekitap.WebUI\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T13:46:50.875Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Products\\Details.cshtml",
-              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Products\\Details.cshtml",
-              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Products\\Details.cshtml",
-              "RelativeToolTip": "Ekitap.WebUI\\Views\\Products\\Details.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAuwLsAAAAKAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Favorites\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Favorites\\Index.cshtml",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Favorites\\Index.cshtml",
+              "RelativeToolTip": "Ekitap.WebUI\\Views\\Favorites\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T16:02:14.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T13:46:43.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "Ekitap.WebUI\\Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T13:47:13.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SessionExtensionMethods.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\ExtensionMethods\\SessionExtensionMethods.cs",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\ExtensionMethods\\SessionExtensionMethods.cs",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\ExtensionMethods\\SessionExtensionMethods.cs",
+              "RelativeToolTip": "Ekitap.WebUI\\ExtensionMethods\\SessionExtensionMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:37:12.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Ekitap.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\samet\\source\\repos\\Ekitap\\Ekitap.WebUI\\Program.cs",
+              "RelativeToolTip": "Ekitap.WebUI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:34:38.488Z"
             }
           ]
         }

@@ -2,10 +2,13 @@
 using Microsoft.EntityFrameworkCore;
 using Ekitap.Core.Entities;
 using Ekitap.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Ekitap.WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Policy = "AdminPolicy")]
+
     public class AppUsersController : Controller
     {
         private readonly DatabaseContext _context;

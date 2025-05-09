@@ -1,6 +1,7 @@
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\bin\Debug\net8.0\Ekitap.Core.deps.json
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\bin\Debug\net8.0\Ekitap.Core.dll
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\bin\Debug\net8.0\Ekitap.Core.pdb
+C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\Ekitap.Core.csproj.AssemblyReference.cache
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\Ekitap.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\Ekitap.Core.AssemblyInfoInputs.cache
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\Ekitap.Core.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\Ekitap.Core.dll
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\refint\Ekitap.Core.dll
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\Ekitap.Core.pdb
 C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\ref\Ekitap.Core.dll
-C:\Users\samet\source\repos\Ekitap\Ekitap.Core\obj\Debug\net8.0\Ekitap.Core.csproj.AssemblyReference.cache

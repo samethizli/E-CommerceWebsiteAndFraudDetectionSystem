@@ -1,4 +1,6 @@
 using Ekitap.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Security.Claims;
 
 namespace Ekitap.WebUI
 {
@@ -11,7 +13,34 @@ namespace Ekitap.WebUI
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddSession(options =>
+            {//AYARLADIK BURDA SESSÝON FAVORÝLERÝMÝ
+                options.Cookie.Name = ".Ekitap.Session";
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+                options.IdleTimeout = TimeSpan.FromDays(1);
+                options.IOTimeout = TimeSpan.FromMinutes(10);
+            });//favorileri eklemek için kullanýcaz
+
             builder.Services.AddDbContext<DatabaseContext>();
+
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie
+                (x=>
+                {
+                    x.LoginPath = "/Account/SignIn";
+                    x.AccessDeniedPath = "/AccessDenied";
+                    x.Cookie.Name = "Account";
+                    x.Cookie.MaxAge=TimeSpan.FromDays(7);
+                    x.Cookie.IsEssential = true;
+                });
+
+            builder.Services.AddAuthorization(x =>
+            {
+                x.AddPolicy("AdminPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin"));
+                x.AddPolicy("UserPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin","User",
+                    "Customer"));
+
+            });
 
             var app = builder.Build();
 
@@ -28,8 +57,9 @@ namespace Ekitap.WebUI
             app.UseStaticFiles();
 
             app.UseRouting();
-
-            app.UseAuthorization();
+            app.UseSession();//session kullan
+            app.UseAuthentication();// önce oturum açma 
+            app.UseAuthorization();// sonra yetkilendirme
             app.MapControllerRoute(
            name: "admin",
            pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}"
